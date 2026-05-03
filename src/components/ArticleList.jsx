@@ -2,7 +2,7 @@ import Article from "./Article";
 
 function ArticleList({ posts }) {
   return (
-    <section>
+    <main>
       {posts.map(post => (
         <Article
           key={post.id}
@@ -11,7 +11,7 @@ function ArticleList({ posts }) {
           preview={post.preview}
         />
       ))}
-    </section>
+    </main>
   );
 }
 

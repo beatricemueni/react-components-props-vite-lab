@@ -38,9 +38,7 @@ function App() {
         />
       </aside>
 
-      <main>
-        <ArticleList posts={posts} />
-      </main>
+      <ArticleList posts={posts} />
     </div>
   );
 }
