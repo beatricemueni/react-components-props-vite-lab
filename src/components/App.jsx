@@ -26,7 +26,7 @@ const posts = [
 
 function App() {
   return (
-    <div className="App" style={{ maxWidth: "600px", margin: "0 auto" }}>
+    <div className="App" style={{ maxWidth: "1000px", margin: "0 auto" }}>
       <header>
         <Header name="Sophie's Blog" />
       </header>
